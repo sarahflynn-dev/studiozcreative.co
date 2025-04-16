@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="64"
+   height="50"
+   viewBox="0 0 64 64"
+   version="1.1"
+   id="svg15"
+   sodipodi:docname="ko-fi-2rect.svg"
+   inkscape:version="1.1 (c68e22c387, 2021-05-23)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <metadata
+     id="metadata21">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>Artboard</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs19" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1920"
+     inkscape:window-height="1027"
+     id="namedview17"
+     showgrid="false"
+     inkscape:zoom="7.7045454"
+     inkscape:cx="29.463127"
+     inkscape:cy="19.533923"
+     inkscape:window-x="-8"
+     inkscape:window-y="22"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg15"
+     inkscape:pagecheckerboard="0" />
+  <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+  <title
+     id="title2">Artboard</title>
+  <desc
+     id="desc4">Created with Sketch.</desc>
+  <g
+     id="g856"
+     transform="matrix(2.5148465,0,0,2.7027916,-8.8885547,-68.887595)">
+    <g
+       transform="translate(0,26)"
+       id="Group-4"
+       style="fill:none;fill-rule:nonzero;stroke:none;stroke-width:1">
+      <circle
+         id="Oval"
+         cx="16.280001"
+         cy="16.280001"
+         r="16.280001"
+         style="display:none;fill:#29abe0" />
+      <path
+         id="Rectangle-2"
+         style="display:inline;fill:#000000;fill-opacity:1;stroke-width:1.36022"
+         d="m 1.8537761,0.14953441 c -0.93993065,0 -1.70199935,0.81717614 -1.70199935,1.82507589 V 18.811776 c 0,2.015799 1.52413795,3.648752 3.40399855,3.648752 H 19.626877 c 1.879861,0 3.403999,-1.632953 3.403999,-3.648752 v -2.380717 h 2.111836 c 4.073031,0 7.37446,-3.540165 7.37446,-7.9077294 V 8.0586627 c 0,-4.3675635 -3.301429,-7.90912829 -7.37446,-7.90912829 H 23.030876 Z M 23.030876,4.3707222 h 1.925191 c 2.018724,0 3.655904,1.7555682 3.655904,3.9202739 0,2.1647059 -1.63718,3.9188749 -3.655904,3.9188749 H 23.030876 Z M 7.3944096,5.1083103 c 1.9663881,0 3.2123264,0.8247656 3.7381334,2.4744894 0.525809,-1.6497238 1.771746,-2.4744894 3.738134,-2.4744894 2.949582,0 4.044272,3.934247 2.49818,6.5067317 -1.030728,1.71499 -3.110196,3.884821 -6.236314,6.508131 C 8.0064257,15.499863 5.9282627,13.330032 4.8975351,11.615042 3.3514437,9.0425573 4.4448284,5.1083103 7.3944096,5.1083103 Z" />
+    </g>
+    <g
+       id="Group"
+       transform="translate(4.84,34.8)"
+       style="display:inline;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1" />
+  </g>
+</svg>

@@ -1,0 +1,19 @@
+@font-face {
+    font-family: RedFive;
+    src: url(fnt/REDFIVE.woff) format('woff');}
+@font-face {
+    font-family: Harabara;
+    src: url(fnt/Harabara.woff) format('woff');}
+@font-face {
+    font-family: OpenSans;
+    src: url(fnt/OpenSans-Regular.woff) format('woff');
+    src: url(fnt/OpenSans-Bold.woff) format('woff'),
+       url(fnt/OpenSans-BoldItalic.woff) format('woff'),
+       url(fnt/OpenSans-ExtraBold.woff) format('woff'),
+       url(fnt/OpenSans-ExtraBoldItalic.woff) format('woff'),
+       url(fnt/OpenSans-Italic.woff) format('woff'),
+       url(fnt/OpenSans-Light.woff) format('woff'),
+       url(fnt/OpenSans-LightItalic.woff) format('woff'),
+       url(fnt/OpenSans-Semibold.woff) format('woff'),
+       url(fnt/OpenSans-SemiboldItalic.woff) format('woff'),;
+}
