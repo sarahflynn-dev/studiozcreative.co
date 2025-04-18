@@ -1,3 +1,31 @@
+:root {
+    --color-primary: #292cbf;
+    --color-secondary: #1da805;
+    --color-tertiary: #e82b2f;
+    --color-quaternary: #d5dd05;
+    --color-quinary: #060211;
+    --color-senary: #9B9CA8;
+    --ff: "Harabara", "opensans", sans-serif;
+    --h1: bold 70px/60px var(--ff);
+    --h2: bold 36px/48px var(--ff);
+    --h3: bold 24px/36px var(--ff);
+    --links: 18px/18px var(--ff);
+    --p: 18px/30px var(--ff);
+    --p1: 24px/30px var(--ff);
+    --p2: 36px/48px var(--ff);
+    --subtext: 12px/20px var(--ff);
+    --transition: 0.3s ease-in-out;
+}
+
+/* Actual code by Sajid */
+.resize {
+    font-size: 5vw;
+}
+
+.clamp {
+    font-size: clamp(16px, 5vw, 65px);
+}
+
 .bg-mustard {
     background-color: #d5dd05;
 }
@@ -45,12 +73,14 @@
 .text-smoke-light {
     color: #9B9CA8;
 }
+
 .text-smoke-dark {
     color: #464858;
 }
+
 .redfive {
     font-family: "RedFive";
-    font-size: 3em;
+    /* font-size: 3em; */
 }
 
 .info {
@@ -81,9 +111,18 @@ p {
     letter-spacing: -0.5px;
 }
 
-.redfive, p, nav, ol, ul{
-    font-size: 1em;
+.redfive,
+p,
+nav,
+ol,
+ul {
+    /* font-size: 1em; */
     letter-spacing: 0.5px;
+}
+
+.nav {
+    font-family: RedFive, Arial;
+    font-size: 1.3em;
 }
 
 .marquee {
@@ -172,9 +211,15 @@ p {
 }
 
 body {
-    margin: 0;
-    font-family: Arial;
+    margin: 2rem;
+    width: 90%;
+    margin: 20px auto;
+    max-width: 1080px;
+    background-color: var(--colorbody);
+    color: var(--colorp);
 }
+
+p {font: var(--p);}
 
 .header {
     text-align: center;
@@ -205,6 +250,7 @@ body {
     vertical-align: middle;
     width: 100%;
 }
+
 
 /* Responsive layout - makes a two column-layout instead of four columns */
 @media screen and (max-width: 800px) {
