@@ -217,7 +217,7 @@ body {
     max-width: 1080px;
     background-color: var(--colorbody);
     color: var(--colorp);
-    background-image: url(img/alpha-pat.webp);
+    background-image: url(../img/alpha-pat.webp);
 }
 
 .boxbox {
