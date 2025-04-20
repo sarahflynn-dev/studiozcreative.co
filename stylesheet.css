@@ -23,7 +23,7 @@
 }
 
 .clamp {
-    font-size: clamp(16px, 5vw, 65px);
+    font-size: clamp(16px, 5vw, 60px);
 }
 
 .bg-mustard {
@@ -217,9 +217,22 @@ body {
     max-width: 1080px;
     background-color: var(--colorbody);
     color: var(--colorp);
+    background-image: url(img/alpha-pat.webp);
 }
 
-p {font: var(--p);}
+.boxbox {
+    box-shadow: var(--bs-box-shadow-lg) !important;
+    border-radius: var(--bs-border-radius-xl) !important;
+    border: var(--bs-border-width) var(--bs-border-style) var(--bs-border-color) !important;
+}
+
+p {
+    font: var(--p);
+}
+
+nav-link {
+    letter-spacing: 3px;
+}
 
 .header {
     text-align: center;
