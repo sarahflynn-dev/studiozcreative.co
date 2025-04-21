@@ -1,0 +1,15 @@
+pip install flask
+pip install Flask
+pip install flash
+pip install bcrypt
+pip install flask_bcrypt
+pip install pymysql
+pip install pypi
+pip install Flask Flask-Dance
+
+studioz_database
+studiozadmin
+Hdi*3_842jdooDD
+
+sayjay
+Hsioh+3HK

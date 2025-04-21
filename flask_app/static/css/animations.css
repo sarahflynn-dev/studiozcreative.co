@@ -98,7 +98,7 @@ font-size: 2em;
  */
 
 .switch-animation {
-    height: 50px;
+    height: 100px;
     overflow: hidden;
     margin-left: 1rem;
     /* margin-bottom: 2.81rem; */
@@ -110,7 +110,7 @@ font-size: 2em;
     /* margin-bottom: 2.81rem; */
 }
 
-.switch-animation div:first-child {
+.switch-animation {
     animation: text-animation 8s infinite;
 }
 
@@ -132,27 +132,53 @@ font-size: 2em;
     color: white;
 }
 
+.clamp {
+    font-size: clamp(16px, 11.7vw, 60px);
+}
+
 .switch-container {
     color: #e5e5e5;
     font-size: 2.26rem;
     text-transform: uppercase;
-    /* height: 100vh; */
+    /* height: 50vh; */
     display: flex;
+    overflow: hidden;
     align-items: center;
     justify-content: center;
 }
 
 @keyframes text-animation {
     25% {
-        transform: translatey(-5.8vmin);
+        transform: translatey(-11.7vmin);
         opacity: 1;
     }
 
     50% {
-        transform: translatey(-11vmin);
+        transform: translatey(-11.7vmin);
     }
 
     75% {
-        transform: translatey(-16.5vmin);
+        transform: translatey(-30vmin);
     }
+
+    100% {
+        transform: translatey(-5vmin);
+    }
+}
+
+.soft {
+    background: linear-gradient(-45deg,rgba(213, 221, 5, 1) 0%, rgb(59, 255, 25) 25%, rgba(213, 221, 5, 1) 50%, rgba(255, 168, 74, 1) 75%, rgba(213, 221, 5, 1) 100%);
+	animation: soft 15s ease infinite;
+}
+
+@keyframes soft {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
 }

@@ -22,12 +22,16 @@
     font-size: 5vw;
 }
 
-.clamp {
-    font-size: clamp(16px, 5vw, 60px);
-}
 
 .bg-mustard {
     background-color: #d5dd05;
+}
+
+.bg-mustard .soft {
+    background: linear-gradient(90deg,rgba(213, 221, 5, 1) 0%, rgba(34, 224, 0, 1) 50%, rgba(255, 168, 74, 1) 100%);
+    /* background-size: 400% 400%; */
+	animation: soft 15s ease infinite;
+	/* height: 100vh; */
 }
 
 .bg-cherry {
@@ -263,6 +267,29 @@ nav-link {
     vertical-align: middle;
     width: 100%;
 }
+
+/* default state: content is visible */
+.mobile-hide {
+    /* display: block; */
+  }
+
+.mobile-show {
+    display: none !important;
+  }
+  
+  /* when viewport width is less than 990px, hide */
+  @media (max-width: 989px) {
+    .mobile-hide {
+      display: none !important;
+    }
+  }
+
+    /* when viewport width is less than 990px, show */
+    @media (max-width: 989px) {
+        .mobile-show {
+            display: block !important;
+        }
+      }
 
 
 /* Responsive layout - makes a two column-layout instead of four columns */
