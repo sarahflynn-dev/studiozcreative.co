@@ -101,7 +101,7 @@ font-size: 2em;
     height: 100px;
     overflow: hidden;
     margin-left: 1rem;
-    /* margin-bottom: 2.81rem; */
+    margin-bottom: 2.81rem;
     /* margin-right: 1rem; */
 }
 
@@ -111,11 +111,12 @@ font-size: 2em;
 }
 
 .switch-animation {
-    animation: text-animation 8s infinite;
+    animation: text-animation 12s infinite;
 }
 
 .first div {
     background-color: #e82b2f;
+    /* margin-bottom: 10rem; */
 }
 
 .second div {
@@ -146,23 +147,40 @@ font-size: 2em;
     align-items: center;
     justify-content: center;
 }
-
+/* `vmin` is a CSS unit that represents the smaller of either 1% of
+        the viewport's height or width. It is useful for creating
+        responsive designs that scale based on the viewport size. */
 @keyframes text-animation {
-    25% {
-        transform: translatey(-11.7vmin);
+    0% {
+        transform: translatey(-3.82vmin);
         opacity: 1;
     }
-
+    10% {
+        transform: translatey(-3.82vmin);
+    }
+    20% {
+        transform: translatey(-36.4vmin);
+    }
+    30% {
+        transform: translatey(-36.4vmin);
+    }
+    40% {
+        transform: translatey(-70.2vmin);
+    }
     50% {
-        transform: translatey(-11.7vmin);
+        transform: translatey(-70.2vmin);
     }
-
-    75% {
-        transform: translatey(-30vmin);
+    60% {
+        transform: translatey(-102.8vmin);
     }
-
+    70% {
+        transform: translatey(-102.8vmin);
+    }
+    90% {
+        transform: translatey(-3.82vmin);
+    }
     100% {
-        transform: translatey(-5vmin);
+        transform: translatey(-3.82vmin);
     }
 }
 
